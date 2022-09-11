@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import eightbit from "../img/eightbitLRC.png";
 import { useLocation } from "react-router-dom";
 
 const Nav = () => {
@@ -86,7 +85,7 @@ const S_Nav = styled.nav`
   }
   #logo {
     font-size: 3rem;
-    font-family: "Lobster", cursive;
+    font-family: "Inter", sans-serif;
     font-weight: lighter;
   }
   #home {

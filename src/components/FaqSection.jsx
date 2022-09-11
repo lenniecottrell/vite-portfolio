@@ -22,25 +22,29 @@ const FaqSection = () => {
         <Toggle title="What are your tech skills?">
           <div className="answer">
             <p>
-              I'm strongest on the front end, but I'm comfortable with back end
-              tools as well.
+              I'm proficient with essential frontend web dev tools (HTML, CSS,
+              Vanilla JS, ES6) and confident with React, Express, and using a UI
+              or CSS library. VSCode is my editor of choice (Monokai theme at
+              the moment!). Git and Github are my good friends. Vite is my
+              boilerplate of choice.
             </p>
             <p>
-              I'm fluent in HTML, CSS/SCSS, and JavaScript, and know enough
-              Python to make things happen. I love building with React, and I'm
-              very comfortable with CSS frameworks like Bootstrap and Bulma.
-            </p>
-            <p>
-              I enjoy working in relational databases with SQL and have used
-              PostgreSQL and SQLite to build small projects.
+              On the backend, I'm comfortable writing SQL queries, doing basic
+              table joins, and I'm generally familiar with relational database
+              concepts. Learning NoSQL is next on my list.
             </p>
           </div>
         </Toggle>
         <Toggle title="What are your goals?">
           <div className="answer">
             <p>
-              I want to do work that enriches lives. There is great power
-              inherent in tech, and I want to wield that power for good.
+              In tech, I want to do work that enriches lives, helps people, and
+              feels important. I want to be learning all the time, and be pushed
+              outside my comfort zone on a regular basis.
+            </p>
+            <p>
+              In life, I want to be a good dad, a decent banjo player, a
+              generous baker, and a supportive partner.
             </p>
           </div>
         </Toggle>
@@ -48,28 +52,26 @@ const FaqSection = () => {
           <div className="answer">
             <p>You bet!</p>
             <p>
-              I like baking very much, especially cookies and scones. I like to
-              read fantasy, science fiction, graphic novels, and science-y
-              nonfiction. Some of my favorite books I've read recently are "The
-              Name of the Wind" by Patrick Rothfuss, "Norse Mythology" by Niel
-              Gaiman, and "Other Minds: The Octopus, the Sea, and the Deep
-              Origins of Conciousness" by Peter Godfrey-Smith.
+              I like baking very much, especially sourdough bread, scones, and
+              any type of cookies. I like to read fantasy, science fiction,
+              graphic novels, and science-y nonfiction. Some of my favorite
+              books I've read recently are "The Name of the Wind" by Patrick
+              Rothfuss, "Black Buck" by Mateo Askaripour, and "Deep Work" by Cal
+              Newport.
             </p>
             <p>
-              Before the pandemic, much of my time was dedicated to conducting
-              and singing choral music (I have two music degrees). Singing is,
-              unfortunately, a super-spreading activity, so these days I try to
-              improve my piano and ukulele skills when I make music.
+              I used to be a music teacher, and before the pandemic much of my
+              time was dedicated to conducting and singing choral music (I went
+              to school for music). The pandemic and a career change shifted my
+              priorities and my available time, so these days I'm learning the
+              banjo to keep up my music making.
             </p>
-            <p>
-              I also like hiking, snowboarding, and generally exploring the
-              world with my partner and our two dogs.
-            </p>
+            <p>I also like hiking, snowboarding, and generally exploring.</p>
           </div>
         </Toggle>
         <Toggle title="Your dog is really cute!">
           <div className="answer">
-            <p>I know right? She's a very good girl.</p>
+            <p>I know right? She's a very good girl... most of the time.</p>
           </div>
         </Toggle>
       </AnimateSharedLayout>

@@ -26,8 +26,7 @@ const AboutSection = () => {
           </GS_Hide>
         </motion.div>
         <motion.p variants={fade}>
-          I'm a software developer from Portland, Oregon. I'd love to work with
-          you!
+          I'm a software developer from Portland, Oregon.
         </motion.p>
         <S_ButtonContainer>
           <Link to="/work">

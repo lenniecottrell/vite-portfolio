@@ -33,7 +33,7 @@ const ContactMe = () => {
           </S_Social>
           {toggle ? (
             <S_h4 initial="hidden" animate="show">
-              lenniecottrell@gmail.com
+              lenniecottrell [at] gmail.com
             </S_h4>
           ) : (
             ""
