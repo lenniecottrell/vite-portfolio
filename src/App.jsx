@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from "react";
+import About from "./pages/About";
+import GlobalStyle from "./components/GlobalStyle";
+import Nav from "./components/Nav";
+import ContactMe from "./pages/ContactMe";
+import Work from "./pages/Work";
+//Router
+import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const location = useLocation();
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <GlobalStyle />
+      <ScrollTop />
+      <Nav />
+      <AnimatePresence mode='wait'>
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" exact element={<About />} />
+          <Route path="/work" exact element={<Work />} />
+          <Route path="/contact" element={<ContactMe />} />
+        </Routes>
+      </AnimatePresence>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
