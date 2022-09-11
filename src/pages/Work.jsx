@@ -4,7 +4,7 @@ import styled from "styled-components";
 //images
 import geordiPic from "../img/geordiPic.jpg";
 import cubePic from "../img/cubePic.jpg";
-import flashcardPic from "../img/updated-flashcard.jpg";
+import shelfPic from "../img/shelf.jpg";
 import cinemaPic from "../img/cinemaPic.jpg";
 //animations
 import { motion } from "framer-motion";
@@ -49,21 +49,17 @@ const Work = () => {
         initial="hidden"
       >
         <motion.h2 variants={fade}>
-          CS Flashcard App (work in progress)
-          <motion.p>React, PostgreSQL, Node, Express</motion.p>
+          Shelf
+          <motion.p>Vite, Express, Google Books API, ChakraUI</motion.p>
         </motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <a
-          href="https://github.com/lenniecottrell/flashcard-app-V2"
+          href="https://shelf.fly.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
           <S_Hide>
-            <motion.img
-              variants={photoAnim}
-              src={flashcardPic}
-              alt="Computer Science flashcard app"
-            />
+            <motion.img variants={photoAnim} src={shelfPic} alt="Shelf App" />
           </S_Hide>
         </a>
       </S_Project>
