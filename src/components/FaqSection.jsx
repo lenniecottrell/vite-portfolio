@@ -23,15 +23,15 @@ const FaqSection = () => {
           <div className="answer">
             <p>
               I'm proficient with essential frontend web dev tools (HTML, CSS,
-              Vanilla JS, ES6) and confident with React, Express, and using a UI
-              or CSS library. VSCode is my editor of choice (Monokai theme at
+              Vanilla JS, ES6) and confident with React, Express, and UI
+              or CSS libraries. VSCode is my editor of choice (Monokai theme at
               the moment!). Git and Github are my good friends. Vite is my
-              boilerplate of choice.
+              go-to React development platform, and I'm starting to explore Next.js.
             </p>
             <p>
               On the backend, I'm comfortable writing SQL queries, doing basic
               table joins, and I'm generally familiar with relational database
-              concepts. Learning NoSQL is next on my list.
+              concepts. Learning Go and MongoDB is next on my list.
             </p>
           </div>
         </Toggle>
@@ -56,7 +56,7 @@ const FaqSection = () => {
               any type of cookies. I like to read fantasy, science fiction,
               graphic novels, and science-y nonfiction. Some of my favorite
               books I've read recently are "The Name of the Wind" by Patrick
-              Rothfuss, "Black Buck" by Mateo Askaripour, and "Deep Work" by Cal
+              Rothfuss, "The Iron Druid Chronicles" by Kevin Hearne (I'm on book 3), and "Deep Work" by Cal
               Newport.
             </p>
             <p>
